@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="DVu.Library.BusinessObject.DeletedState">
+    <Position X="3.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeletedState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVu.Library.BusinessObject.comparer_ExecutionSequence" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="10" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Transaction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DVu.Library.BusinessObject.Transaction" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="18.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAIAKAACABAAAAAAAAIAAAAAACCAAAAAAAAAAA=</HashCode>
+      <FileName>Transaction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DVu.Library.BusinessObject.NewState">
+    <Position X="15.25" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NewState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVu.Library.BusinessObject.OldCleanState">
+    <Position X="5.75" Y="3.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAQAAAAAAAAAAAAAAAAABAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OldCleanState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVu.Library.BusinessObject.OldDeleteState">
+    <Position X="9.25" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAAAAAAAAACAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OldDeleteState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVu.Library.BusinessObject.OldDirtyState">
+    <Position X="12.25" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAAAAAAAAACAAAAAAAABAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OldDirtyState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVu.Library.BusinessObject.ATransactionPersistenceObject">
+    <Position X="4" Y="6.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAACIAAAAgAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PersistenceObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVu.Library.BusinessObject.APersistenceObject">
+    <Position X="1.25" Y="10" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAgMQAQACABgQGIAIASEKQAAEAAAAEKIAAJAggAAA=</HashCode>
+      <FileName>PersistenceObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DVu.Library.BusinessObject.APersistenceObjectCollection&lt;TKey, TPersistenceObject&gt;">
+    <Position X="5.5" Y="10" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AGIQgMgIAACEAZASKIIQVkQQAAMgAEAECAACCYBwITE=</HashCode>
+      <FileName>PersistenceObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DVu.Library.BusinessObject.AObjectKey" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="10" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>PersistenceObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DVu.Library.BusinessObject.APersistenceObjectWithParentCollection&lt;TKey, TPersistenceObject&gt;">
+    <Position X="6.5" Y="24.25" Width="4.25" />
+    <InheritanceLine Type="DVu.Library.BusinessObject.APersistenceObjectCollection&lt;TKey, TPersistenceObject&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="23.29" />
+        <Point X="8.5" Y="24.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PersistenceObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVu.Library.BusinessObject.PersistenceObjectState">
+    <Position X="9.25" Y="0.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMQAAAAAAAACAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PersistenceObjectState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DVu.Library.PersistenceInterface.NonXmlSerializedAttribute">
+    <Position X="16" Y="22.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="DVu.Library.PersistenceInterface.IObjectKey">
+    <Position X="13.75" Y="12.25" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DVu.Library.PersistenceInterface.IPersistenceObject">
+    <Position X="15.75" Y="12.25" Width="2.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DVu.Library.PersistenceInterface.IPersistenceObjectCollection">
+    <Position X="15.5" Y="15.5" Width="3" />
+    <InheritanceLine Type="DVu.Library.PersistenceInterface.IPersistenceObject" FixedToPoint="true">
+      <Path>
+        <Point X="17.125" Y="14.574" />
+        <Point X="17.125" Y="15.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="DVu.Library.BusinessObject.SortDirection">
+    <Position X="14" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PersistenceObject.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

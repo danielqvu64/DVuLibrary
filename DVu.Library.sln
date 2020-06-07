@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVu.Library.BusinessObject", "DVu.Library.BusinessObject\DVu.Library.BusinessObject.csproj", "{041A9D74-DD19-4983-B8CB-BA172117253A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVu.Library.PersistenceInterface", "DVu.Library.PersistenceInterface\DVu.Library.PersistenceInterface.csproj", "{96488EEE-231B-472A-90E1-E5D99E60054C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVu.Library.PersistenceLayer", "DVu.Library.PersistenceLayer\DVu.Library.PersistenceLayer.csproj", "{A78F0BDD-48D1-4A0F-9157-03C447D1230C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DVu.Library.Utility", "DVu.Library.Utility\DVu.Library.Utility.csproj", "{8FCE667B-C40B-409E-A35C-EEAD236D96CC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://dvu-laptop:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = DVu.Library.BusinessObject\\DVu.Library.BusinessObject.csproj
+		SccProjectName0 = DVu.Library.BusinessObject
+		SccLocalPath0 = DVu.Library.BusinessObject
+		SccProjectUniqueName1 = DVu.Library.PersistenceInterface\\DVu.Library.PersistenceInterface.csproj
+		SccProjectName1 = DVu.Library.PersistenceInterface
+		SccLocalPath1 = DVu.Library.PersistenceInterface
+		SccProjectUniqueName2 = DVu.Library.PersistenceLayer\\DVu.Library.PersistenceLayer.csproj
+		SccProjectName2 = DVu.Library.PersistenceLayer
+		SccLocalPath2 = DVu.Library.PersistenceLayer
+		SccProjectUniqueName3 = DVu.Library.Utility\\DVu.Library.Utility.csproj
+		SccProjectName3 = DVu.Library.Utility
+		SccLocalPath3 = DVu.Library.Utility
+		SccLocalPath4 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{041A9D74-DD19-4983-B8CB-BA172117253A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041A9D74-DD19-4983-B8CB-BA172117253A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041A9D74-DD19-4983-B8CB-BA172117253A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041A9D74-DD19-4983-B8CB-BA172117253A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96488EEE-231B-472A-90E1-E5D99E60054C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96488EEE-231B-472A-90E1-E5D99E60054C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96488EEE-231B-472A-90E1-E5D99E60054C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96488EEE-231B-472A-90E1-E5D99E60054C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78F0BDD-48D1-4A0F-9157-03C447D1230C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78F0BDD-48D1-4A0F-9157-03C447D1230C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78F0BDD-48D1-4A0F-9157-03C447D1230C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78F0BDD-48D1-4A0F-9157-03C447D1230C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCE667B-C40B-409E-A35C-EEAD236D96CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCE667B-C40B-409E-A35C-EEAD236D96CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCE667B-C40B-409E-A35C-EEAD236D96CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCE667B-C40B-409E-A35C-EEAD236D96CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
